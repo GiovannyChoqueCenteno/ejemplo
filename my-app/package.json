@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "prisma": "^3.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "cors": "^2.8.5"
+  }
+}
